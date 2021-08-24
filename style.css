@@ -58,6 +58,7 @@ a{
     border-radius: 5px;
 }
 
+
 /* Main Content */
 
 .main-content{
@@ -95,7 +96,7 @@ overflow: auto;
 .main-content input:focus textarea:focus{
     outline: none;
 }
-textarea{
+textarea::placeholder{
     text-align: center;
 }
 textarea:focus{
