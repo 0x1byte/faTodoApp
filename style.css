@@ -37,7 +37,7 @@ a{
 .navbar{
     background-color: var(--theme-color);
     color: #fff;
-    height: 70px;
+    height: 5rem;
 }
 .navbar .flex{
     justify-content: space-between;
@@ -165,4 +165,17 @@ textarea:focus{
 
 .fa-instagram:hover {
     color: #B32E87;
+}
+
+@media(max-width:768px){
+    .navbar .flex{
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+    }
+
+    .navbar{
+        height: 8rem;
+    }
 }
