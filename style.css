@@ -77,6 +77,13 @@ a{
     margin-bottom: 4rem;
 }
 
+.task{
+    padding: 10px;
+    margin: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .main-content .form-control{
     margin: 30px 0;
 }
@@ -121,7 +128,26 @@ textarea:focus{
 .btn:hover{
     transform: scale(0.98);
 }
+/* End Of Main Content */
 
+/* List Todo */
+.listtodo{
+    display: flex;
+    justify-content: space-between;
+}
+.listinfo .task-title{
+    padding: 10px;
+    overflow: auto;
+}
+.listinfo .task-date{
+    padding: 10px;
+}
+.funcs i{
+    padding: 8px;
+}
+/* End of List Todo */
+
+/* Footer */
 .footer{
     width: 100%;
     min-height: 5rem;
@@ -130,7 +156,6 @@ textarea:focus{
     padding: 1rem 0;
     margin-top:auto; 
 }
-
 .footer .flex{
     justify-content: space-between;
 }
@@ -168,6 +193,7 @@ textarea:focus{
     color: #B32E87;
 }
 
+/* Responsive */
 @media(max-width:768px){
     .navbar .flex{
         display: flex;
